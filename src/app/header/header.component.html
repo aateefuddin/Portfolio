@@ -1,0 +1,63 @@
+<mat-toolbar color="primary">
+	<mat-toolbar-row>
+		<mat-icon *ngIf="!toggleDarkMode"
+				  matTooltip="Toggle for dark mode"
+				  matTooltipPosition="after"
+				  class="example-icon"
+				  (click)="toggleTheme(true)">bedtime
+		</mat-icon>
+		<!-- Dark Mode Icon-->
+		<mat-icon *ngIf="toggleDarkMode"
+				  matTooltip="Toggle for light mode"
+				  matTooltipPosition="after"
+				  class="example-icon"
+				  (click)="toggleTheme(false)">wb_sunny
+		</mat-icon>
+		<!-- Light Mode Icon -->
+		<span class="empty-spacer"></span>
+
+		<a mat-icon-button
+		   aria-label="Twitter Icon"
+		   href="https://twitter.com/aateefuddin"
+		   target="_blank"
+		   rel="noreferrer">
+			<mat-icon class="example-icon"
+					  matTooltip="Tweet @aateefuddin"
+					  matTooltipPosition="below"
+					  svgIcon="twitter"></mat-icon>
+		</a>
+
+		<a mat-icon-button
+		   aria-label="LinkedIn Icon"
+		   href="https://www.linkedin.com/in/aateefuddin/"
+		   target="_blank"
+		   rel="noreferrer">
+			<mat-icon class="example-icon"
+					  matTooltip="Connect with me"
+					  matTooltipPosition="below"
+					  svgIcon="linkedin"></mat-icon>
+		</a>
+
+		<a mat-icon-button
+		   aria-label="Github Icon"
+		   href="https://github.com/aateefuddin"
+		   target="_blank"
+		   rel="noreferrer">
+			<mat-icon class="example-icon"
+					  matTooltip="Check out my projects"
+					  matTooltipPosition="below"
+					  svgIcon="github"></mat-icon>
+		</a>
+
+		<a mat-icon-button
+		   aria-label="Stackoverflow Icon"
+		   href="https://stackoverflow.com/users/13548589/mohammed-aateefuddin?tab=profile"
+		   target="_blank"
+		   rel="noreferrer">
+			<mat-icon class="example-icon"
+					  matTooltip="SO"
+					  matTooltipPosition="below"
+					  svgIcon="stackoverflow"></mat-icon>
+		</a>
+	</mat-toolbar-row>
+</mat-toolbar>
