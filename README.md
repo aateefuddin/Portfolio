@@ -7,7 +7,7 @@
   My first portfolio website <a href="https://aateefuddin.netlify.app/" target="_blank">aateefuddin.com</a> built with <a href="https://v10.angular.io/guide/quickstart" target="_blank">Angular v10</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 
-![demo](https://raw.githubusercontent.com/KVikram/mybrand/master/src/assets/images/VK_site_preview.png)
+![demo](https://github.com/aateefuddin/Portfolio/blob/d9008648adcd1f20359bcc37ab0fd9463ddb0360/src/assets/images/VK_site_preview.png)
 
 ## Live site status
 
