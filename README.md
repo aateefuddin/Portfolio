@@ -9,9 +9,6 @@
 
 ![demo](https://github.com/aateefuddin/Portfolio/blob/d9008648adcd1f20359bcc37ab0fd9463ddb0360/src/assets/images/VK_site_preview.png)
 
-## Live site status
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/87f74a74-d998-41dd-a261-83047fc8d700/deploy-status)](https://app.netlify.com/sites/vikramkadiam/deploys)
 
 ## Version
 
